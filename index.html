@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Student Login</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="form-container">
+        <form id="studentForm">
+            <h1>Student Login</h1>
+            <div class="form-group">
+                <input type="text" placeholder="Enter Your name" id="name" required>
+            </div>
+            <div class="form-group">
+                <input type="number" placeholder="Enter Your id" id="student_id" required>
+            </div>
+            <div class="form-group">
+                <input type="number" placeholder="Enter Your Age" id="age" min="1" required>
+            </div>
+            <div class="form-group">
+                <input type="number" placeholder="Enter Your Number" id="number"  required>
+            </div>
+            <button type="button" onclick="submitForm()">Submit</button>
+        </form>
+        <h2 id="output"></h2>
+    </div>
+    <script src="./javascript/main.js"></script>
+</body>
+</html>
